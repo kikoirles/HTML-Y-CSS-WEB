@@ -1,0 +1,199 @@
+/*cuerpo basico*/
+*{
+    margin: 0px;
+    padding: 0px;}
+
+
+body{
+    padding-top: 20px;
+    text-align: left;
+    background-image: url("../fondo/7.png");
+    width: 70%;
+    padding: 60px;
+    margin: 20px;}
+
+fieldset {
+    background-color: #cccccc;
+	border-color: black;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width: 600px; /*Le establecemos un ancho*/
+	margin: 20 auto; /*Centramos automaticamente*/
+ 	background-color: #434343;}
+
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding: 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;	
+	position:absolute;
+	min-width:140px;}
+			
+.nav li:hover > ul {	
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+			
+
+/*indice*/
+#indice{
+	width: 15%;
+	border: 2px outset;
+  border-color: #000000;
+	border-style: 2px solid;
+	background: white;
+	margin-bottom:  20px;
+	padding-bottom: 20px;}
+	
+
+/*articulos*/
+
+#articulo1{
+	width: 1200px;
+	border: 2px outset;
+  border-color: #000000;
+	border-style: 2px solid;
+	background: white;
+	padding-bottom: 300px;
+	position: relative;}
+
+#articulo2{
+	width: 1200px;
+	border: 2px outset;
+  border-color: #000000;
+	border-style: 2px solid;
+	background: white;
+	padding-bottom: 250px;
+	position: relative;}
+
+#par1{
+  border: 2px outset;
+  border-color: #212DAD;
+  color: black;
+  background-color: #C3C7F3;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 645px;}
+
+#par2{
+  border: 2px outset;
+  border-color: #259F29;
+  color: black;
+  background-color: #7DD680;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 982px;}
+
+#par3{
+  border: 2px outset;
+  border-color: #9357A6;
+  color: black;
+  background-color: #C89DD5;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 1320px;}
+
+#par4{
+  border: 2px outset;
+  border-color: #E67A00;
+  color: black;
+  background-color: #DAA161;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 1630px;}
+
+#par4-5{
+  border: 2px outset;
+  border-color: #E67A00;
+  color: black;
+  background-color: #DAA161;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 1800px;}
+
+#par5{
+  border: 2px outset;
+  border-color: #EC0000;
+  color: black;
+  background-color: #F0B5B5;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 2000px;}
+
+#par5-5{
+  border: 2px outset;
+  border-color: #EC0000;
+  color: black;
+  background-color: #F0B5B5;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 2130px;}
+
+#par6{
+  border: 2px outset;
+  border-color: #212DAD;
+  color: black;
+  background-color: #C3C7F3;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 2350px;}
+
+#par7{
+  border: 2px outset;
+  border-color: #259F29;
+  color: black;
+  background-color: #7DD680;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 2670px;}
+
+#par8{
+  border: 2px outset;
+  border-color: #9357A6;
+  color: black;
+  background-color: #C89DD5;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 3000px;}
+
+#par9{
+  border: 2px outset;
+  border-color: #E67A00;
+  color: black;
+  background-color: #DAA161;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 3330px;}
+
+#par10{
+  border: 2px outset;
+  border-color: #EC0000;
+  color: black;
+  background-color: #F0B5B5;
+  margin: 20px;
+  padding : 20px 15px;
+  position: absolute; left: 80px; top: 3660px;}
+
+
+
+
+
+

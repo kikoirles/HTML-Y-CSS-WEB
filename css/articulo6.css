@@ -1,0 +1,105 @@
+/*cuerpo basico*/
+*{
+    margin: 0px;
+    padding: 0px;}
+
+
+body{
+    padding-top: 20px;
+    text-align: left;
+    background-image: url("../fondo/3.jpg");
+    width: 70%;
+    padding: 60px;
+    margin: 20px;}
+
+fieldset {
+    background-color: #cccccc;
+	border-color: black;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width: 600px; /*Le establecemos un ancho*/
+	margin: 20 auto; /*Centramos automaticamente*/
+ 	background-color: #434343;}
+
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding: 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;	
+	position:absolute;
+	min-width:140px;}
+			
+.nav li:hover > ul {	
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+			
+
+/*Cuento html*/
+
+.cuento {
+  font-size: 20px;
+  display: flex;
+  border: 16px double #000;
+  flex-flow: row wrap;
+  width: 80%;
+  margin:1em  auto;
+  justify-content: center;
+  line-height: 1.5em;
+  background-color: rgb(255, 255, 255);}
+
+.comienzo {
+  text-transform: uppercase;
+  font-family: 'Pirata One', cursive;
+  font-size: 1.5em;
+  color: #11DF04;}
+
+a{
+  text-decoration: none;
+  padding: 5px; 
+  background-color: #000;
+  color: #11DF04;}
+
+ 
+ a:hover {
+  background-color: #11DF04;
+  color: #000;}
+
+  p {
+  padding: 0.5em;
+  max-width: 40em;
+  margin: 0.5em;}
+
+  p::before {
+  content: "❝";
+  font-size: 1.3em;}
+
+  p::after {
+  content: "❞";
+  font-size: 1.3em;}
+
+
+
+
+/*footer compelto*/
+
+
+  

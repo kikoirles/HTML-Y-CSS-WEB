@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>DMZ</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/articulo7.css">
+	<link rel="icon" href="iconos/0.ico">
+	<meta name="author" content="christian irles almeida" >
+	 	<link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
+</head>
+
+<body> 
+	<header id="slidein" >
+  		<figure>
+  			<img  id="logo1" src="iconos/logo1.png" alt="logo">
+   		</figure>
+  		<h1><u> BIENVENIDOS A DEDSEC </u></h1>
+  			<nav id="menu">
+
+		<div id="cabecera">
+     <ul class="nav">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="">Datos</a>
+          <ul>
+            <li><a href="formulario.html">Inscripcion</a></li>
+            <li><a href="tabla.html">Tipos Malware</a></li>
+            <li><a href="galeria.html">Herramientas</a></li>
+            <li><a href="mapa.html">Encuentranos</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Acerca de</a>
+          <ul>
+            <li><a href="articulo.html">Bluetooth</a></li>
+            <li><a href="hackers.html">Top Hakers</a></li>
+            <li><a href="herramientas.html">Hack Tools</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="">Articulos</a>
+          <ul>
+            <li><a href="articulo2.html">Errores WEB</a></li>
+            <li><a href="articulo2-base1.html">TPV VS UDP</a></li>
+            <li><a href="articulo3-base1.html">IDS</a></li>
+            <li><a href="articulo2-base2.html">Ataques</a></li>
+            <li><a href="articulo4-5G.html">5G</a></li>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Aprende mas</a>
+          <ul>
+            <li><a href="articulo6.html">Cuento HTML</a></li>
+            <li><a href="articulo7.html">DMZ</a></li>
+            <li><a href="articulo8.html">Firewall</a></li>
+            <li><a href="articulo9.html">Encriptaciones</a></li>
+            <li><a href="articulo10.html">EMOTED</a></li>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      </nav>
+  </header>
+  
+		<br></br>
+		<br></br>
+      <main id="todo">
+        <div id="img-div">
+            <h1 id="title">Arquitectura DMZ</h1>
+            <h3 id="img-caption">Seguridad</h3>
+            <img src="articulo/DMZ1.png">
+        </div>
+
+        <div>
+              <p> En la seguridad de sistemas informáticos y redes la arquitectura más segura y utilizada es aquélla en la que se hace uso de una red perimétrica o zona desmilitarizada (DMZ, DeMilitarized Zone), que se añade un nivel de seguridad situando la subred DMZ entre las redes externa e interna. Una zona desmilitarizada hace referencia a una red de ordenadores con un rango de direcciones IP privadas que sirve como franja de seguridad entre dos redes, separándolas mediante estrictas reglas de acceso. Así, aunque físicamente los servidores dentro de una DMZ se encuentran en la misma empresa, no están conectados directamente con los equipos de la red local.
+
+              </p>
+            <h2>SU FUNCION</h2>
+              <p> El objetivo de una DMZ es que las conexiones desde la red interna y la externa a la DMZ estén permitidas, mientras que en general las conexiones desde la DMZ sólo se permitan a la red externa, es decir, los equipos en la DMZ no pueden conectar con la red interna. 
+
+              Esto permite que los equipos de la DMZ puedan dar servicios a la red externa a la vez que protegen la red interna en el caso de que intrusos comprometan la seguridad de los equipos situados en la zona desmilitarizada.
+
+               La DMZ se usa habitualmente para ubicar servidores que es necesario que sean accedidos desde fuera, como servidores de correo electrónico, Web y DNS. Y es precisamente estos servicios alojados en estos servidores los únicos que pueden establecer tráfico de datos entre el DMZ y la red interna, por ejemplo, una conexión de datos entre el servidor web y una base de datos protegida situada en la red interna.
+              </p>
+
+            <h2>ARQUITECTURA DÉBIL</h2>
+              <p>
+                Una subred protegida débil es aquella que establece la protección de la red interna empleando una zona DMZ por detrás de un firewall de perímetro. En esta disposición, el equipo que actúa como firewall debe tener al menos tres interfaces para poder conectar con la DMZ, el exterior y la red interna. Un inconveniente bastante importante es que un fallo en el cortafuegos puede desproteger a la red interna.
+              </p>
+
+              <img src="articulo/DMZ2.png">
+
+              <br></br>
+
+              <h2>ARQUITECTURA DÉBIL</h2>
+
+              <p>
+                La subred protegida fuerte establece la protección de la red interna con una zona DMZ situada entre dos firewall. En esta disposición el cortafuegos externo (de acceso) bloquea y controla el tráfico no deseado desde la red externa a la DMZ. El cortafuegos interno (de contención) bloquea y controla el tráfico no deseado de la DMZ a la red interna.
+              </p>
+              <p>
+                El punto a favor de esta arquitectura es que un fallo en el cortafuegos externo desprotege solamente la DMZ. 
+              </p>
+
+              <p>
+                Una de las medidas recomendables es tener dos proveedores diferentes para cada uno de los dos servidores que funcionan como firewall. Cada proveedor puede tener una política de seguridad diferente por lo que si un intruso es capaz de saltar las medidas de seguridad de uno de ellos, en el mejor de los casos, tendrá que emplear un método diferente para atravesar el otro. 
+              </p>
+
+              <img src="articulo/DMZ3.png">
+        </div>
+    </main>
+	
+	<footer>    
+	</footer>
+
+</body>
+</html>

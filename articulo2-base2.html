@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>ARTICULO-ATAQUES</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/articulo2-base2.css">
+	<link rel="icon" href="iconos/0.ico">
+	<meta name="author" content="christian irles almeida" >
+	 	<link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
+</head>
+
+<body> 
+	<header id="slidein" >
+  		<figure>
+  			<img  id="logo1" src="iconos/logo1.png" alt="logo">
+   		</figure>
+  		<h1><u> BIENVENIDOS A DEDSEC </u></h1>
+  		<nav id="menu">
+
+	
+	<div id="cabecera">
+     <ul class="nav">
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="">Datos</a>
+					<ul>
+						<li><a href="formulario.html">Inscripcion</a></li>
+						<li><a href="tabla.html">Tipos Malware</a></li>
+						<li><a href="galeria.html">Herramientas</a></li>
+						<li><a href="mapa.html">Encuentranos</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="articulo.html">Bluetooth</a></li>
+						<li><a href="hackers.html">Top Hakers</a></li>
+						<li><a href="herramientas.html">Hack Tools</a></li>
+						<li><a href="calendario.html">Calendario</a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="">Articulos</a>
+					<ul>
+						<li><a href="articulo2.html">Errores WEB</a></li>
+						<li><a href="articulo2-base1.html">TPV VS UDP</a></li>
+						<li><a href="articulo3-base1.html">IDS</a></li>
+						<li><a href="articulo2-base2.html">Ataques</a></li>
+						<li><a href="articulo4-5G.html">5G</a></li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Aprende mas</a>
+					<ul>
+						<li><a href="articulo6.html">Cuento HTML</a></li>
+            			<li><a href="articulo7.html">DMZ</a></li>
+            			<li><a href="articulo8.html">Firewall</a></li>
+            			<li><a href="articulo9.html">Encriptaciones</a></li>
+            			<li><a href="articulo10.html">EMOTED</a></li>
+						</li>
+					</ul>
+				</li>
+			</ul>
+    	</div>
+    	</nav>
+	</header>
+
+	<br></br>
+	<br></br>
+		<ol id='indice'>
+			<li><h2>INDICE<h2></li>
+  			<li><a href="#par1">1.Ataque DoS</a></li> <!-- TEndria que redireccionar a par2 que es donde esta el error 200 pero no queda mejor en par1 -->
+			<li><a href="#par2">2.Ping Flood</a></li>
+			<li><a href="#par3">3.Ping de la muerte</a></li>
+			<li><a href="#par4">4.Escaneo de puertos</a></li>
+			<li><a href="#par5">5.ARP Spoofing</a></li>
+			<li><a href="#par6">6.ACK floods</a></li>
+			<li><a href="#par7">7.Ataque FTP Bounce</a></li>
+			<li><a href="#par8">8.TCP Session Hijacking</a></li>
+			<li><a href="#par9">9.Ataque Man-In-The-Middle</a></li>
+			<li><a href="#par10">10.Ataque Ingenieria Social</a></li>
+		</ol>
+
+	<div id="articulo2" class="container"><h1><u>1.Ataque DoS</u></h1></div>
+		<div id="par1" class="container">	
+				<p>En un ataque de denegación de servicio (DoS), un atacante intenta evitar la</p>
+				<p>legitimidad de que los usuarios accedan a información o al servicios.</p>
+				<p>red con información. Cuando escribimos una URL de un sitio web en particular</p>
+				<p>en nuetro navegador, estamos enviando una solicitud al servidor web del sitio para</p>
+				<p>poder ver la página en concreto. El servidor solo puede procesar una cierta</p>
+				<p>cantidad de solicitudes de una vez, por lo que si un atacante sobrecarga el servidor</p>
+				<p>con solicitudes, no puede procesarse dicha solicitud. Esto es una "denegación de</p>
+				<p>servicio" ya que no se puede acceder al sitio.</p>
+        </div>
+	</div>
+  	
+
+	<br></br>
+
+  	<div id="articulo2" class="container"><h1><u>2.Ping Flood</u></h1></div>
+		<div id="par2" class="container">	
+				<p>Ping flood se basa en enviar a la víctima una cantidad abrumadora de paquetes ping,</p>
+				<p>usualmente usando el comando "ping" de UNIX como hosts (el indicador -t en los sistemas</p>
+				<p>Windows tiene una función mucho menos maligna). Es muy simple de lanzar, el requisito</p> 
+				<p>principal es tener acceso a un ancho de banda mayor que la víctima.</p>
+        </div>
+	</div>
+  
+
+  	<br></br>
+
+  	<div id="articulo2" class="container"><h1><u>3.Ping de la muerte</u></h1></div>
+		<div id="par3" class="container">	
+				<p>El atacante envía un paquete ICMP de más de 65.536 bytes. Como el sistema operativo</p> 
+				<p>no sabe cómo manejar un paquete tan grande, se congela o se cuelga en el momento</p> 
+				<p>de volver a montarlo. Hoy en día, el sistema operativo descarta dichos paquetes por sí mismo.</p> 
+				<p>Pero debía enumerar dicho ataque mítico (Otros muchos de esta lista estan obsoletos, pero debían ser enumerados)</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	 <div id="articulo1" class="container"><h1><u>4.Escaneo de puertos</u></h1></div>
+		<div id="par4" class="container">	
+				<p>El escaneo de puertos es una de las técnicas de reconocimiento más populares</p>
+			    <p>que utilizan los atacantes para descubrir los servicios expuestos a posibles ataques.</p> 
+			    <p>Todas las máquinas conectadas a una red de área local (LAN) o Internet ejecutan muchos servicios</p> 
+			    <p>que escuchan en puertos conocidos y no tan conocidos. Un escaneo de puertos</p> 
+			    <p>ayuda al atacante a encontrar qué puertos están disponibles (es decir, qué servicio podría estar</p> 
+			    <p>enumerando un puerto).</p>
+		</div>
+		<div id="par4-5" class="container">	    
+			    <p>Esencialmente, un escaneo de puertos consiste en enviar un mensaje a cada puerto, uno a uno.</p> 
+			    <p>El tipo de respuesta recibida indica si el puerto está a la escucha y, por lo tanto,</p>
+			    <p>puede probarse más detalladamente para detectar debilidad.</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>5.ARP Spoofing</u></h1></div>
+		<div id="par5" class="container">	
+				<p>ARP Poison Routing (APR), es una técnica utilizada para atacar una red cableada o inalámbrica de Ethernet.</p> 
+				<p>ARP Spoofing puede permitir que un atacante detecte frameworks de datos en una red de área local (LAN),</p> 
+				<p>modifique el tráfico o detenga el tráfico por completo. El ataque solo se puede usar en redes que realmente usan ARP</p> 
+				<p>y no en otro método de resolución de direcciones.</p>
+	 	</div>
+	 	<div id="par5-5" class="container">	    
+			    <p>La detección la realizamos mediante ARP inverso (RARP) que es un protocolo utilizado para consultar la dirección IP</p> 
+			    <p>asociada con una dirección MAC dada. Si se devuelve más de una dirección IP, la clonación MAC está presente.</p>
+        </div>
+	 </div>
+	 
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>6.ACK floods</u></h1></div>
+		<div id="par6" class="container">	
+				<p>Esta es una técnica para enviar un paquete TCP / ACK al objetivo a menudo con una dirección IP falsificada.</p> 
+				<p>Es muy similar a los ataques de inundación TCP / SYN</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>7.Ataque FTP Bounce</u></h1></div>
+		<div id="par7" class="container">	
+				<p>El atacante puede conectarse a los servidores FTP y tiener la intención de enviar archivos a otros usuarios / máquina</p> 
+				<p>que usan el comando PORT. Para que el servidor FTP intente enviar el archivo a otras máquinas en un puerto específico</p> 
+				<p>y verifique que el puerto esté abierto. Es obvio que la transferencia de FTP estaría permitida en los firewalls.</p> 
+				<p>En estos días casi todo los servidores FTP se implementan con el comando PORT desactivado.</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>8.TCP Session Hijacking</u></h1></div>
+		<div id="par8" class="container">	
+				<p>Es el caso cuando el "Hacker" toma la sesión TCP existente, ya establecido entre las dos partes.</p> 
+				<p>En la mayoría de las sesión TCP la autenticación ocurre al comienzo de la sesión,</p> 
+				<p>los piratas informáticos realizan este ataque en dicho momento.</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>9.Ataque Man-In-The-Middle</u></h1></div>
+		<div id="par9" class="container">	
+				<p>Un ataque MITM ocurre cuando una comunicación entre dos sistemas es interceptada por una entidad externa.</p> 
+				<p>Esto puede suceder en cualquier forma de comunicación en línea, como correo electrónico, redes sociales,</p> 
+				<p>avegación web, etc. No solo están tratando de escuchar nuestras conversaciones privadas, sino que también</p> 
+				<p>pueden dirigir toda la información dentro de los dispositivos.</p>
+        </div>
+	 </div>
+
+	 <br></br>
+
+	  <div id="articulo2" class="container"><h1><u>10.Ataque Ingenieria Social</u></h1></div>
+		<div id="par10" class="container">	
+				<p>La ingeniería social es el arte de manipular a las personas para que renuncien a la información confidencial.</p> 
+				<p>Los tipos de información que buscan estos delincuentes pueden variar, pero cuando los individuos son blanco,</p> 
+				<p>los delincuentes generalmente intentan engañarlo para que le dé su contraseña o información bancaria,</p> 
+				<p>o acceda a su pc para instalar en secreto el software malicioso, que le dará acceso a su contraseñas e información bancaria,</p> 
+				<p>así como para darles control sobre el mismo.</p>
+        </div>
+	 </div>
+
+	 <br></br>
+	
+	<footer>    
+	</footer>
+</body>
+</html>

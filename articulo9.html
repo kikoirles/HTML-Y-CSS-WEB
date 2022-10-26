@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>ENCRIPTACIONES</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/articulo9.css">
+	<link rel="icon" href="iconos/0.ico">
+	<meta name="author" content="christian irles almeida" >
+	 	<link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
+</head>
+
+<body> 
+	<header id="slidein" >
+  		<figure>
+  			<img  id="logo1" src="iconos/logo1.png" alt="logo">
+   		</figure>
+  		<h1><u> BIENVENIDOS A DEDSEC </u></h1>
+  			<nav id="menu">
+
+		<div id="cabecera">
+     <ul class="nav">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="">Datos</a>
+          <ul>
+            <li><a href="formulario.html">Inscripcion</a></li>
+            <li><a href="tabla.html">Tipos Malware</a></li>
+            <li><a href="galeria.html">Herramientas</a></li>
+            <li><a href="mapa.html">Encuentranos</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Acerca de</a>
+          <ul>
+            <li><a href="articulo.html">Bluetooth</a></li>
+            <li><a href="hackers.html">Top Hakers</a></li>
+            <li><a href="herramientas.html">Hack Tools</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="">Articulos</a>
+          <ul>
+            <li><a href="articulo2.html">Errores WEB</a></li>
+            <li><a href="articulo2-base1.html">TPV VS UDP</a></li>
+            <li><a href="articulo3-base1.html">IDS</a></li>
+            <li><a href="articulo2-base2.html">Ataques</a></li>
+            <li><a href="articulo4-5G.html">5G</a></li>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Aprende mas</a>
+          <ul>
+            <li><a href="articulo6.html">Cuento HTML</a></li>
+            <li><a href="articulo7.html">DMZ</a></li>
+            <li><a href="articulo8.html">Firewall</a></li>
+            <li><a href="articulo9.html">Encriptaciones</a></li>
+            <li><a href="articulo10.html">EMOTED</a></li>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      </nav>
+  </header>
+  
+		<br></br>
+		<br></br>
+
+
+  <section class="articulos">
+        <div class="articulo"><h2>Encriptación Simétrica</h2><hr><p>Encriptación simétrica es más básica que la asimétrica, pero juega un papel importante en una comunicación cliente-servidor a través del protocolo HTTPS. La diferencia en este caso radica en que el cifrado simétrico se basa en una sola clave, tanto para hacer el cifrado como para el descifrado. La autenticidad y la confidencialidad no se logran, es mucho más barato y solo implica compartir la clave entre el remitente y el receptor</p>
+      </div>
+        <div class="articulo"><h2>Encriptación Asimétrica</h2><hr><p>Se basa en una codificación de información basada en dos claves: una privada y una pública. De esta manera, el remitente conserva la clave privada y la pública puede entregarse a cualquier receptor. La Clave privada permite descifrar todos los mensajes cifrados con la clave pública; con la pública solo podemos descifrar los mensajes cifrados con la clave privada original. Abordemos mejor el tema de las claves:
+
+        Claves Públicas: La clave pública puede encriptar mensajes que sólo se descifran con la clave privada. Esto significa que nadie con la clave pública puede descifrar ese mensaje. Por esto surge la confidencialidad, ya que solo el receptor, podrá interpretar el mensaje.
+
+        Claves Privadas: Con la clave privada podemos cifrar información mientras la persona posea el par de la clave pública. Este proceso no brinda la misma confidencialidad, ya que cualquiera con la clave pública podría leer el mensaje, pero le otorga autenticidad a los mensajes. Esto se debe a que solo el que tiene la clave privada puede cifrar la información de la forma en que solo el que tiene la clave pública la puede descifrar.</p>
+      </div>
+  </section>
+
+      <br></br>
+      <br></br>
+
+    <img id="img" src="articulo/cifrado.png" alt="news"/>
+
+
+	
+	<footer>    
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*cuerpo basico*/
+*{
+    margin: 0px;
+    padding: 0px;}
+
+
+body{
+    padding-top: 20px;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    background-image: url("../fondo/8.png");
+    width: 70%;
+    padding: 60px;
+    margin: 20px;}
+
+fieldset {
+    background-color: #cccccc;
+	border-color: black;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width: 600px; /*Le establecemos un ancho*/
+	margin: 20 auto; /*Centramos automaticamente*/
+ 	background-color: #434343;}
+
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding: 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;	
+	position:absolute;
+	min-width:140px;}
+			
+.nav li:hover > ul {	
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+			
+
+
+
+/* articulo */
+
+#todo{
+  background: #DEB07A;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px groove black;}
+
+#texto{
+  background: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px groove black;}

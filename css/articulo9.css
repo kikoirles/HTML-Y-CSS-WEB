@@ -1,0 +1,95 @@
+/*cuerpo basico*/
+*{
+    margin: 0px;
+    padding: 0px;}
+
+
+body{
+    padding-top: 20px;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    background-image: url("../fondo/9.png");
+    width: 70%;
+    padding: 60px;
+    margin: 20px;}
+
+fieldset {
+    background-color: #cccccc;
+	border-color: black;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width: 600px; /*Le establecemos un ancho*/
+	margin: 20 auto; /*Centramos automaticamente*/
+ 	background-color: #434343;}
+
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding: 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;	
+	position:absolute;
+	min-width:140px;}
+			
+.nav li:hover > ul {	
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+			
+
+
+
+/* articulo */
+
+
+
+.articulos{
+  border: 5px groove black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display:flex;
+  background: #CAC384;
+  justify-content: center;}
+
+.articulo {
+  border: 5px groove #514D2B;
+  background: $color1;
+  border-radius: 10px;
+  margin: 0.4em 0.2em 0.2em 0.2em;
+  padding: 0 0.2em 0 0.2em;}
+
+p{
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  color: lighten($color1, 80%);
+  font-family: 'Roboto', sans-serif;}
+        
+h2{
+  text-align: center;
+  color: lighten($color1, 80%);
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: 0.1em;}
+        
+hr{
+  margin-bottom: 1em;
+  height: 2px;
+  border: none;
+  background: $color3;}

@@ -1,0 +1,96 @@
+/*cuerpo basico*/
+*{
+    margin: 0px;
+    padding: 0px;}
+
+/*boody basico*/
+body{
+    padding-top: 20px;
+    text-align: left;
+    background-image: url("../fondo/10.png");
+    width: 70%;
+    padding: 60px;
+    margin: 20px;}
+
+fieldset {
+    background-color: #cccccc;
+	border-color: black;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width: 600px; /*Le establecemos un ancho*/
+	margin: 20 auto; /*Centramos automaticamente*/
+ 	background-color: #434343;}
+
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding: 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;	
+	position:absolute;
+	min-width:140px;}
+			
+.nav li:hover > ul {	
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+
+/*tabla*/
+		
+#tablabig{
+   text-align: left;
+   border-collapse: separate;
+   border-spacing: 2px;
+   background: black;
+   color: #fff;}
+
+td, th {
+   background: #AFDEFB;
+   color: #000;}
+
+   
+
+/*estrellitas*/
+
+#thack{
+	display: block;
+	width: 1300px;
+	margin: 50px auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #999999;
+	background: #DDDDDD;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	box-shadow: rgb(150,150,150) 5px 5px 10px;
+	background: -webkit-linear-gradient(top, #FFFFFF, #2fa347);
+	background: -moz-linear-gradient(top, #FFFFFF, #2fa347);}
+
+#aside{
+	  font: 120% sans-serif;	  
+	  position:absolute;
+	  width: 40%;
+	  height:850px;
+	  top:450px;
+	  left:75.6%;}
+

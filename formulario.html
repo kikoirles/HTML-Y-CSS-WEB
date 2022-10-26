@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>DEDSEC-INSCRIPCION</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="icon" href="iconos/0.ico">
+	<meta name="author" content="christian irles almeida" >
+	 	<link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
+		<link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
+</head>
+
+<body> 
+	<header id="slidein" >
+  		<figure>
+  			<img  id="logo1" src="iconos/logo1.png" alt="logo">
+   		</figure>
+  		<h1><u> BIENVENIDOS A DEDSEC </u></h1>
+  			<nav id="menu">
+
+	<div id="cabecera">
+     <ul class="nav">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="">Datos</a>
+          <ul>
+            <li><a href="formulario.html">Inscripcion</a></li>
+            <li><a href="tabla.html">Tipos Malware</a></li>
+            <li><a href="galeria.html">Herramientas</a></li>
+            <li><a href="mapa.html">Encuentranos</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Acerca de</a>
+          <ul>
+            <li><a href="articulo.html">Bluetooth</a></li>
+            <li><a href="hackers.html">Top Hakers</a></li>
+            <li><a href="herramientas.html">Hack Tools</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="">Articulos</a>
+          <ul>
+            <li><a href="articulo2.html">Errores WEB</a></li>
+            <li><a href=".html">Articulo3</a></li>
+            <li><a href=".html">Articulo3</a></li>
+            <li><a href=".html">Articulo4</a></li>
+            <li><a href=".html">Articulo5</a></li>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Aprende mas</a>
+          <ul>
+            <li><a href="articulo6.html">Cuento HTML</a></li>
+            <li><a href="articulo7.html">DMZ</a></li>
+            <li><a href="articulo8.html">Firewall</a></li>
+            <li><a href="articulo9.html">Encriptaciones</a></li>
+            <li><a href="articulo10.html">EMOTED</a></li>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      </nav>
+  </header>
+		
+	<br>
+	<br>
+	<br>
+
+	<h1 id="Registrate">Registrate</h1>
+
+	<form  id="CV"  name="datos" method="post" action="http://www.formular-chef.com/Formular-Chef.cgi">
+
+  <fieldset>
+    <label for="nombre"><b>Nombre</b></label>
+      <input type="hidden" name="destinatario"  value="cristianirles14@gmail.com"/>
+      <input type="text"  name="nombre"  id="nombre"  maxlength="40" size="30" placeholder="Nombre o Usuario"  autofocus="" required="" />
+    <label  for="apellidos"><b>Apellidos</b></label> 
+    <input type="text"  id="apellidos" name="apellidos"  size="30"  maxlength="70" required="" />
+  </fieldset>
+
+  <fieldset>
+    <label  for="contraseña"><b>Contraseña (minimo 6 caracteres)</b></label>  
+      <input type="password"  id="contraseña" name="contraseña"  size="30" minlength="6" maxlength="15" required="" />
+      <br>
+    <label  for="repite_contraseña"><b>Repetir contraseña</b></label>  
+      <input type="password"  id="repcontraseña" name="repcontraseña"  size="30"  minlength="6" maxlength="15"   required="" />
+  	  </br>
+  </fieldset>
+
+  <fieldset>
+    <label for="telefono" ><b>Telefono</b></label>
+      <input type="tel"  id="telefono" name="tlf"  minlength="9"  maxlength="9"   size="30"  required="" />
+  </fieldset>
+
+  <fieldset>
+    <label for="email"><b>E-mail</b></label>
+      <input type="email" id="email" name="email" size="30" placeholder="batman@gmail.com" />
+  </fieldset>
+
+  <fieldset>
+    <label><b>Género</b></label>
+      <select name="genero">
+        <option value="value1">Hombre</option> 
+        <option value="value2">Mujer</option>
+        <option value="value2">Alien</option>
+        <option value="value3">Prefiero no contestar</option>
+      </select>
+  </fieldset>
+
+
+  <fieldset>
+    <label><b>Curso</b></label>
+      <select name="inscripcion">
+        <option value="v1">1º ESO</option>
+        <option  value="v2">2º ESO</option>
+        <option  value="v3">3º ESO</option>
+        <option  value="v4">4º ESO</option>
+        <option  value="v5">1º Bachiller</option>
+        <option  value="v6">2º Bachiller</option>
+        <option  value="v7">Grado Medio - SMR</option>
+        <option  value="v8">Grado Superior - ASIR</option>
+        <option  value="v9">Grado Superior - DAM</option>
+        <option  value="v10">Grado Superior - DAW</option>
+        <option  value="v10">OTRO</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <label><b>Comentarios</b></label>
+      <textarea></textarea>
+    </fieldset>
+
+  <fieldset>
+    <label><b>Fecha</b></label>
+      <input type="date" name="fecha"  size="30" value=""/>
+  </fieldset>
+
+  <fieldset>
+    <label><b>Confirmar</b></label>
+    <input type="submit" name="submit" value="Enviar"/>
+	<input type="reset" name="borrar" value="Borrar datos introducidos"/>
+    </fieldset>
+
+	<br></br>
+  <footer>
+  	<h3><u>INFORMACION DE TUS DATOS</u></h3>
+    <p><u>Tratamos tus datos para:</u></p>
+    <ul>
+      <li type="square">Enviar noticias a tu coreo electronico</li>
+      <li type="square">Ofrecer apollo tecnico personal</li>
+      <li type="square">Acceso a relizar comentarios en los foros</li>
+      <li type="square">Acceso a descargar nuestro contenido y mucho mas<</li>
+    </ul>
+    <br>
+    <h2>Gracias por vender vuestros datos</h2>
+    </br>
+  </footer>
+
+</body>
+</html>
