@@ -1,101 +1,109 @@
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
-	<title>ARTICULO-TCP</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/articulo2-base1.css">
-	<link rel="icon" href="iconos/0.ico">
-	<meta name="author" content="christian irles almeida" >
-	 	<link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
-		<link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
-		<link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
+    <meta charset="UTF-8">           <!-- Ejemplo de aside con section dividido en dos -->     
+    <title>ARTICULO-TCP</title>
+    <link rel="stylesheet" href="css/articulo2-base1.css">
+    <link rel="icon" href="iconos/0.ico">
+    <meta name="author" content="christian irles almeida">
+    <link rel="stylesheet" type="text/css" media="(min-width: 320px)" href="css/index_movil.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index_tablet.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="css/index_escritorio.css">
 </head>
 
-<body> 
-	<header id="slidein" >
-  		<figure>
-  			<img  id="logo1" src="iconos/logo1.png" alt="logo">
-   		</figure>
-  		<h1><u> BIENVENIDOS A DEDSEC </u></h1>
-  		<nav id="menu">
+<body>
+    <!-- HEADER -->
+    <header id="slidein">
+        <figure>
+            <img id="logo1" src="iconos/logo1.png" alt="Logo de DEDSEC">
+        </figure>
+        <h1><u>BIENVENIDOS A DEDSEC</u></h1>
+        <nav id="menu">
+            <div id="cabecera">
+                <ul class="nav">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="#">Datos</a>
+                        <ul>
+                            <li><a href="formulario.html">Inscripción</a></li>
+                            <li><a href="tabla.html">Tipos Malware</a></li>
+                            <li><a href="galeria.html">Herramientas</a></li>
+                            <li><a href="mapa.html">Encuéntranos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Acerca de</a>
+                        <ul>
+                            <li><a href="articulo.html">Bluetooth</a></li>
+                            <li><a href="hackers.html">Top Hackers</a></li>
+                            <li><a href="herramientas.html">Hack Tools</a></li>
+                            <li><a href="calendario.html">Calendario</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Artículos</a>
+                        <ul>
+                            <li><a href="articulo2.html">Errores WEB</a></li>
+                            <li><a href="articulo2-base1.html">TPV VS UDP</a></li>
+                            <li><a href="articulo3-base1.html">IDS</a></li>
+                            <li><a href="articulo2-base2.html">Ataques</a></li>
+                            <li><a href="articulo4-5G.html">5G</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Aprende más</a>
+                        <ul>
+                            <li><a href="articulo6.html">Cuento HTML</a></li>
+                            <li><a href="articulo7.html">DMZ</a></li>
+                            <li><a href="articulo8.html">Firewall</a></li>
+                            <li><a href="articulo9.html">Encriptaciones</a></li>
+                            <li><a href="articulo10.html">EMOTED</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-	<div id="cabecera">
-     <ul class="nav">
-				<li><a href="inicio.html">Inicio</a></li>
-				<li><a href="">Datos</a>
-					<ul>
-						<li><a href="formulario.html">Inscripcion</a></li>
-						<li><a href="tabla.html">Tipos Malware</a></li>
-						<li><a href="galeria.html">Herramientas</a></li>
-						<li><a href="mapa.html">Encuentranos</a>
-						</li>
-					</ul>
-				</li>
-				<li><a href="">Acerca de</a>
-					<ul>
-						<li><a href="articulo.html">Bluetooth</a></li>
-						<li><a href="hackers.html">Top Hakers</a></li>
-						<li><a href="herramientas.html">Hack Tools</a></li>
-						<li><a href="calendario.html">Calendario</a></li>
-					</ul>
-				</li>
-				<li><a href="contacto.html">Contacto</a></li>
-				<li><a href="">Articulos</a>
-					<ul>
-						<li><a href="articulo2.html">Errores WEB</a></li>
-						<li><a href="articulo2-base1.html">TPV VS UDP</a></li>
-						<li><a href="articulo3-base1.html">IDS</a></li>
-						<li><a href="articulo2-base2.html">Ataques</a></li>
-						<li><a href="articulo4-5G.html">5G</a></li>
-						</li>
-					</ul>
-				</li>
-				<li><a href="">Aprende mas</a>
-					<ul>
-						<li><a href="articulo6.html">Cuento HTML</a></li>
-            			<li><a href="articulo7.html">DMZ</a></li>
-            			<li><a href="articulo8.html">Firewall</a></li>
-            			<li><a href="articulo9.html">Encriptaciones</a></li>
-            			<li><a href="articulo10.html">EMOTED</a></li>
-						</li>
-					</ul>
-				</li>
-			</ul>
-    	</div>
-    	</nav>
-	</header>
-		
-
-	<section>  
+    <!-- MAIN CONTENT -->
+    <main>
+        <section>
             <article id="article">
-                    	<h2><u>TCP</u></h2>
-                    		<br>
-                    			<p>El protocolo TCP (Protocolo de Control de Transmisión) es uno de los protocolos fundamentales en Internet, nos permite que las aplicaciones puedan comunicarse con garantías independientemente de las capas inferiores del modelo TCP/IP. Esto significa que los routers (capa de red en el modelo TCP/IP) solamente tienen que enviar los segmentos (unidad de medida en TCP), sin preocuparse si van a llegar esos datos correctamente o no. TCP da soporte a múltiples protocolos de la capa de aplicación, como, por ejemplo, HTTP (web), HTTPS (web segura), POP3 (correo entrante) y SMTP (correo saliente) así como sus versiones seguras utilizando TLS. También se utiliza TCP en protocolos tan importantes como FTP, FTPS y SFTP</p>
-					    	</br>
-					    <img id="img1" src="articulo/TCP.png">
-					    	<h3><u>FUNCIONAMIENTO</u></h3>
-							<ul><br>
-					    		<li>&diams;TCP tiene un mecanismo complejo de control de errores</li></br>
-								<li>&diams;Los datos llegan en orden, es decir, en el mismo orden que fueron emitidos</li></br>
-								<li>&diams;El protocolo TCP permite realizar control de flujo, es decir, es capaz de mitigar la posible saturación de la red o del host remoto</li></br>
-								<li>&diams;TCP también dispone de control de congestión</li></br>
-							</ul>
-			</article>
-	<div id="aside">
-				<h2><u>UDP</u></h2>
-						<br>
-							<p>El protocolo UDP (Protocolo de Datagramas de usuario) es uno de los protocolos fundamentales en Internet, nos permite que las aplicaciones puedan comunicarse con garantías independientemente de las capas inferiores del modelo TCP/IP. Esto significa que los routers (capa de red en el modelo TCP/IP) solamente tienen que enviar los datagramas (unidad de medida en UDP). UDP da soporte a múltiples protocolos de la capa de aplicación, como los populares DNS e incluso el protocolo DHCP para obtener (y proporcionar) direccionamiento IP automáticamente.
-							Este protocolo se utiliza principalmente en DHCP y DNS donde es más importante la rapidez que la fiabilidad. UDP es muy utilizado en tareas de control de transmisiones de audio y vídeo a través de una red. UDP sólo añade multiplexado de aplicación y suma de verificación de la cabecera y la carga útil.</p>
-						</br>
-					<img id="img1" src="articulo/UDP.png">
-							</br>
-					    	<h3><u>FUNCIONAMIENTO</u></h3>
-					    	</br>
-							<ul>
-					    		<li>&diams;Este protocolo no proporciona ningún tipo de control de flujo</li></br>
-								<li>&diams;No proporciona ningún tipo de control de congestión</li></br>
-							</ul>
-	<footer>    
-	</footer>
+                <h2><u>TCP</u></h2>
+                <p>El protocolo TCP (Protocolo de Control de Transmisión) es uno de los protocolos fundamentales en Internet, permitiendo que las aplicaciones se comuniquen con garantías...</p>
+                <img id="img1" src="articulo/TCP.png" alt="Esquema de TCP">
+                <h3><u>FUNCIONAMIENTO</u></h3>
+                <ul>
+                    <li>TCP tiene un mecanismo complejo de control de errores.</li>
+                    <br>
+                    <li>Los datos llegan en orden, es decir, en el mismo orden que fueron emitidos.</li>
+                    <br>
+                    <li>El protocolo TCP permite realizar control de flujo.</li>
+                    <br>
+                    <li>TCP también dispone de control de congestión.</li>
+                    <br>
+                </ul>
+            </article>
+
+            <aside id="aside">
+                <h2><u>UDP</u></h2>
+                <p>El protocolo UDP (Protocolo de Datagramas de Usuario) permite la comunicación sin garantías de fiabilidad, lo que lo hace más rápido que TCP...</p>
+                <img id="img1" src="articulo/UDP.png" alt="Esquema de UDP">
+                <h3><u>FUNCIONAMIENTO</u></h3>
+                <ul>
+                    <li>Este protocolo no proporciona ningún tipo de control de flujo.</li>
+                    <li>No proporciona ningún tipo de control de congestión.</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 DEDSEC. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="terminos.html">Términos de uso</a></li>
+            <li><a href="privacidad.html">Política de privacidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
