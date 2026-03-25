@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;}
 
-
 body{
     padding-top: 20px;
     text-align: left;
@@ -53,15 +52,11 @@ ul, ol {
 	right:-140px;
 	top:0px;}
 			
-
-/*...*/
-
 #todo{
   padding-left: 20px;
   padding-right: 20px;
   background: white;
   border: 5px groove black;}
-
 
 /* Estilos generales del footer */
 footer {

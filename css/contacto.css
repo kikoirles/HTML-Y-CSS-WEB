@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;}
 
-
 body{
     padding-top: 20px;
     text-align: left;
@@ -52,9 +51,7 @@ ul, ol {
 	right:-140px;
 	top:0px;}
 			
-
 /*tabla*/
-
 table {
    width: 100%;
    border: 4px solid #000000;

@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;}
 
-
 body{
     padding-top: 20px;
     text-align: left;
@@ -51,9 +50,6 @@ ul, ol {
 .nav li ul li ul {
 	right:-140px;
 	top:0px;}
-			
-
-/*Cuento html*/
 
 .cuento {
   font-size: 20px;

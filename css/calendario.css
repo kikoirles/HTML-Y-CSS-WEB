@@ -14,7 +14,7 @@ body{
     margin: 20px;}
 
 fieldset {
-    background-color: #cccccc;
+  background-color: #cccccc;
 	border-color: black;}
 			
 ul, ol {
@@ -53,9 +53,7 @@ ul, ol {
 	right:-140px;
 	top:0px;}
 			
-
 /*calendario*/
-
 /* mes */
 .mes {
   margin-bottom: 5px;
@@ -67,14 +65,11 @@ ul, ol {
   background: #D862DA;
   text-align: center;}
 
-
-
 .mes ul li {
   color: white;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;}
-
 
 /* semanas */
 .semana {
