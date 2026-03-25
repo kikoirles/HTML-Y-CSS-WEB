@@ -53,9 +53,6 @@ ul, ol {
 	right:-140px;
 	top:0px;}
 			
-
-
-
 /* articulo */
 
 #todo{
@@ -73,3 +70,31 @@ ul, ol {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 2px groove black;}
+
+  /* Estilos generales del footer */
+footer {
+	background-color: #333; 
+	color: white; 
+	text-align: center; 
+	padding: 20px 0; 
+	width: 100%; 
+	position: fixed; 
+	bottom: 0; 
+	left: 0;}
+  
+  /* Estilos para la lista de enlaces en el footer */
+  footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;}
+  
+  footer ul li {
+	display: inline;
+	margin: 0 15px;}
+  
+  footer ul li a {
+	color: white;
+	text-decoration: none;}
+  
+  footer ul li a:hover {
+	text-decoration: underline;}
